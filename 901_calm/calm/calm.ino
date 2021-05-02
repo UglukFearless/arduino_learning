@@ -93,7 +93,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if (!started) {
-    Serial.println("GET TIME!");
     startTime = millis();
     started = true;
   }
